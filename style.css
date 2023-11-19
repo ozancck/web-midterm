@@ -41,10 +41,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2%;
+
 }
 
 header > p {
     padding-right: 75px;
+    color: white;
 }
 
 /* hero -------------------------------------------------------------------- */
