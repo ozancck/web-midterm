@@ -370,20 +370,9 @@ header > p {
 
     }
 
+    .personelInformation {
+        position: static;
+        top: auto;
+    }
+
 }
-
-
-
-
-.sabitBolum {
-    position: sticky;
-    top: 0;
-}
-
-/* Orta bölüm için CSS */
-.scrollBolum {
-    overflow-y: auto;
-    height: 100vh; /* Ekranın yüksekliğine ayarla */
-}
-
-
