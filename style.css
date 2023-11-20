@@ -32,6 +32,7 @@ p, div{
 }
 
 header {
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,6 +52,9 @@ header > p {
 
 /* hero -------------------------------------------------------------------- */
 .hero {
+
+    overflow: visible;
+
     display: flex;
     align-items: start;
     justify-content: center;
@@ -60,6 +64,9 @@ header > p {
 /* hero > kur degisimleri  */
 
 .kurItems {
+
+    position: sticky;
+    top: 150px;
     
     box-shadow: 0px 0px 2px black;
    
@@ -217,6 +224,8 @@ header > p {
 
 /* hero personel information, history and account status  */
 .personelInformation{
+    position: sticky;
+    top: 150px;
     margin: 1%;
     margin-right: 2%;
     display: flex;
@@ -362,4 +371,19 @@ header > p {
     }
 
 }
+
+
+
+
+.sabitBolum {
+    position: sticky;
+    top: 0;
+}
+
+/* Orta bölüm için CSS */
+.scrollBolum {
+    overflow-y: auto;
+    height: 100vh; /* Ekranın yüksekliğine ayarla */
+}
+
 
