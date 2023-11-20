@@ -336,3 +336,30 @@ header > p {
     color: white;
 }
 
+
+
+/* for responsive */
+@media only screen and (max-width: 1500px) {
+    body {
+        padding-top: 60px;
+    }
+    header {
+        height: 30px;
+        padding: 1%;
+    }
+    .logo {
+        width: 50px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+      .kurlist, .kurItems, .kurlist > div {
+        width: 100%;
+
+    }
+
+}
+
